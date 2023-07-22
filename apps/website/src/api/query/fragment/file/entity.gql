@@ -1,0 +1,13 @@
+fragment File on UploadFile {
+  url
+  width
+  height
+}
+
+fragment FileWrapper on UploadFileEntityResponse {
+  data {
+    attributes {
+      ...File
+    }
+  }
+}

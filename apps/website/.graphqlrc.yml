@@ -1,0 +1,11 @@
+schema: 'http://127.0.0.1:1337/graphql'
+extensions:
+  codegen:
+    generates:
+      ./src/api/typings.d.ts:
+        plugins:
+          - 'typescript'
+
+      ./src/api/schema.json:
+        plugins:
+          - 'fragment-matcher'

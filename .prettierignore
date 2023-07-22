@@ -1,0 +1,19 @@
+# IDE
+.idea
+.vscode
+
+# Rush
+.rush
+common/temp
+common/changes
+common/scripts
+common/config
+package-deps*
+node_modules
+pnpm-lock.*
+
+# Tmp
+*.log
+
+# OS
+.DS_Store

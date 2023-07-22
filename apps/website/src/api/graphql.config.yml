@@ -1,0 +1,9 @@
+schema: schema.graphql
+extensions:
+  endpoints:
+    Default GraphQL Endpoint:
+      url: http://localhost:1337/graphql
+      introspect: true
+      headers:
+        user-agent: JS GraphQL
+        Authorization: Bearer ${API_TOKEN}

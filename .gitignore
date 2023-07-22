@@ -1,0 +1,14 @@
+# IDE
+.idea
+.vscode
+
+# Rush
+.rush
+common/temp
+node_modules
+
+# Tmp
+*.log
+
+# OS
+.DS_Store

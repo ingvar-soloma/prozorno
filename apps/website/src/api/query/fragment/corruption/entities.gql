@@ -1,0 +1,9 @@
+#import ./entity.gql
+
+fragment Corruptions on CorruptionEntityResponseCollection {
+  data {
+    attributes {
+      ...Corruption
+    }
+  }
+}

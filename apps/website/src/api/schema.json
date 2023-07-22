@@ -1,0 +1,14 @@
+{
+  "possibleTypes": {
+    "GenericMorph": [
+      "ComponentShareLocation",
+      "Corruption",
+      "I18NLocale",
+      "UploadFile",
+      "UploadFolder",
+      "UsersPermissionsPermission",
+      "UsersPermissionsRole",
+      "UsersPermissionsUser"
+    ]
+  }
+}

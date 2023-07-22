@@ -1,0 +1,7 @@
+fragment Corruption on Corruption {
+  url
+  cost
+  location {
+    region
+  }
+}

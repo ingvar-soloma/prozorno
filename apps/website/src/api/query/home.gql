@@ -1,0 +1,7 @@
+#import ./fragment/corruption/entities.gql
+
+query Home {
+  corruptions {
+    ...Corruptions
+  }
+}
