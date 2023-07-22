@@ -18,5 +18,5 @@ export async function create(props: { url?: string }) {
   await setI18nLang(language);
 
   // Configure the application plugins and mount it.
-  app.use(i18n).use(router).use(Quasar).mount('#app');
+  app.use(i18n).use(router).use(Quasar, {}).mount('#app');
 }

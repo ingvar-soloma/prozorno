@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
   "rushVersion": "5.100.1",
-  "pnpmVersion": "8.6.9",
+  "yarnVersion": "1.22.19",
   "projectFolderMaxDepth": 3,
   "suppressNodeLtsWarning": true,
   "ensureConsistentVersions": true,
@@ -17,16 +17,6 @@
     {
       "packageName": "@internal/builder",
       "projectFolder": "common/tools/builder",
-      "shouldPublish": false
-    },
-    {
-      "packageName": "@internal/eslint",
-      "projectFolder": "common/tools/eslint",
-      "shouldPublish": false
-    },
-    {
-      "packageName": "@internal/scripts",
-      "projectFolder": "common/tools/scripts",
       "shouldPublish": false
     },
     {

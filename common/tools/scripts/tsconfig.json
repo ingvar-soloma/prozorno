@@ -1,6 +1,0 @@
-{
-  "extends": "@internal/typescript/tsconfig.node.json",
-  "compilerOptions": {
-    "declaration": false
-  }
-}

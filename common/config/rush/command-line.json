@@ -39,7 +39,7 @@
       "summary": "Invokes linter to validate commit message",
       "safeForSimultaneousRushProcesses": false,
       "autoinstallerName": "commitlint",
-      "shellCommand": "commitlint --edit --extends @commitlint/config-conventional"
+      "shellCommand": "commitlint --edit --extends ./common/autoinstallers/commitlint/node_modules/@commitlint/config-conventional"
     }
   ]
 }
